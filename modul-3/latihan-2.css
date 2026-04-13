@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* BODY 2 KOLOM */
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.konten {
+    width: 70%;
+}
+
+.sidebar {
+    width: 30%;
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+/* FOOTER 3 KOLOM */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer div {
+    width: 30%;
+}
