@@ -1,0 +1,25 @@
+*, *::before, *::after {
+box-sizing: border-box;
+margin: 0; padding: 0;
+}
+body {
+font-family: Arial;
+padding: 1.5rem;
+background: #F8F9FA;
+}
+h1, h2 { margin-bottom: 1rem; }
+h2 { margin-top: 2rem; }
+/* ── Tombol Lift ── */
+.demo-tombol {
+display: flex; gap: 1rem;
+flex-wrap: wrap;
+}
+button {
+padding: 0.6rem 1.2rem;
+border: none; cursor: pointer;
+border-radius: 6px;
+font-size: 0.95rem;
+}
+.btn-lift {
+background: #2E86C1;
+color: white;

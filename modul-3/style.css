@@ -23,8 +23,7 @@ input[type='text']:focus {
     border-color: #2471A3;
     outline: none;
 }
-/* Siapa yang menang? */
-/* (0,0,0,1) */
+/* Siapa yang menang? *//* (0,0,0,1) */
 p { color: black; }
 /* (0,0,1,0) — menang dari p */
 .teks-biru { color: blue; }
