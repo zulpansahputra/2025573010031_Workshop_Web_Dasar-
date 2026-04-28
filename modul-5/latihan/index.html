@@ -1,13 +1,91 @@
 <!doctype html>
-<html lang="en">
+<html lang="id" class="dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>latihan</title>
+    <title>Zulfan Studio</title>
   </head>
-  <body>
-    <div id="app"></div>
+
+  <body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
+    <!-- NAVBAR -->
+    <header
+      class="flex justify-between items-center p-6 bg-white dark:bg-gray-800 shadow"
+    >
+      <h1 class="text-5xl text-red-500"></h1>
+      <h1 class="text-xl font-bold">ZulfanStudio</h1>
+      <nav class="hidden md:flex gap-6">
+        <a href="#" class="hover:text-blue-500">Home</a>
+        <a href="#fitur" class="hover:text-blue-500">Fitur</a>
+        <a href="#testimoni" class="hover:text-blue-500">Testimoni</a>
+        <a href="#kontak" class="hover:text-blue-500">Kontak</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section
+      class="text-center py-16 px-6 bg-gradient-to-r from-blue-500 to-indigo-600 text-white"
+    >
+      <h2 class="text-3xl md:text-5xl font-bold mb-4">
+        Bangun Website Profesional 🚀
+      </h2>
+      <p class="mb-6 max-w-xl mx-auto">
+        Solusi digital modern untuk bisnis dan personal brand kamu
+      </p>
+      <button class="btn-primary">Mulai Sekarang</button>
+    </section>
+
+    <!-- FITUR -->
+    <section id="fitur" class="section">
+      <h2 class="section-title">Layanan Kami</h2>
+
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div class="card">
+          <h3 class="font-bold mb-2">Company Profile</h3>
+          <p>Website profesional untuk bisnis</p>
+        </div>
+
+        <div class="card">
+          <h3 class="font-bold mb-2">Toko Online</h3>
+          <p>Solusi e-commerce lengkap</p>
+        </div>
+
+        <div class="card">
+          <h3 class="font-bold mb-2">Landing Page</h3>
+          <p>Desain konversi tinggi</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONI -->
+    <section id="testimoni" class="section bg-gray-50 dark:bg-gray-800">
+      <h2 class="section-title">Testimoni</h2>
+
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div class="card">"Sangat bagus!" - Andi</div>
+        <div class="card">"Modern banget!" - Siti</div>
+        <div class="card">"Cepat & rapi!" - Budi</div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="section">
+      <h2 class="section-title">Kontak</h2>
+
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div class="card">Email: zulfan@gmail.com</div>
+        <div class="card">WA: 08123456789</div>
+        <div class="card">IG: @zulfan</div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer
+      class="grid md:grid-cols-3 text-center p-6 bg-gray-200 dark:bg-gray-700"
+    >
+      <div>© 2026 Zulfan</div>
+      <div>Privacy</div>
+      <div>Terms</div>
+    </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
